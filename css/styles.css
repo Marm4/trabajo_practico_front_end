@@ -1,0 +1,440 @@
+/* ESTILO DEL BODY*/
+
+body{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    color:#232C50;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+}
+
+footer{
+}
+/* ESTILOS GENERALES*/
+
+ul{
+    text-align: start;
+    list-style-type: none;
+    width: 25vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 58px;
+    letter-spacing: -0.035em;
+    line-height: 66px;
+}
+
+button:hover{
+    background-color: rgba(139, 72, 191, 0.7);;
+}
+
+.visibilidad-escondido{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-columna-invertido{
+    flex-direction: column-reverse;
+}
+
+.flex-columna{
+    flex-direction: column;
+}
+
+.flex-alinear-centro{
+    align-items: center;
+}
+
+.flex-justificar-espacio{
+    justify-content: space-between;
+}
+
+.flex-justificar-espacio2{
+    justify-content: space-around;
+}
+
+.posicion-boton{
+    max-width: 125px;
+    align-self: center;
+
+}
+
+
+.estilo-boton{
+    background: #8B48BF;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 15px 35px;
+}
+
+#tamaño-logo{
+    width: 146px;
+    height: 24px;
+}
+
+#margin-top135{
+    margin-top: 135px;
+}
+
+#margin-top50{
+    margin-top: 50px;
+}
+
+#margin-top35{
+    margin-top: 35px;
+}
+
+#padding-top35{
+    padding: 35px 0px 0px 0px;
+}
+
+/* ESTILOS DEL HEADER*/
+
+header{
+    margin-top: 45px;
+}
+
+header div a{
+    font-size: 10px;
+    color:#232C50;
+}
+
+header div a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+header div a{
+    padding: 0px 10px;
+}
+
+#hamburguesa-header{
+    position: relative;
+    left: 10vw;
+    width: 25px;
+    height: 24px;
+}
+
+
+/* ESTILO DEL MAIN*/
+
+main{
+    padding: 0px 25px;
+}
+
+.dimension-texto-main{
+    width: 95vw;
+}
+
+#letra-p-main{
+    color: #000000;
+    font-size: 16px;
+    line-height: 157.1%;
+    padding: 0px 25px;
+    font-weight: bold;
+}
+
+#letra-h3-main{
+    font-size: 36px;
+    letter-spacing: -0.035em;
+    line-height: 35px;
+}
+
+.fondo-article{
+    background-color: rgba(139, 72, 191, 0.3);
+    width: 500px;
+    height: 40px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+/* ESTILOS DE LOS ARTICULOS DEL MAIN*/
+
+#numero-articulo-main{
+    font-size: 16px;
+
+    color: #FFFFFF; 
+    background: #8B48BF;
+
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+#titulo-articulo-main{ 
+    text-align: start;
+    font-size: 16px;
+    color: #323851;
+
+    margin: 0px;
+    padding: 10px 0px 10px 20px;  
+}
+
+#texto-articulo-main{
+    font-size: 16px;
+    color: #B3B2B7;
+    font-weight: 500;
+    text-align: start;
+    
+}
+
+.letra-h4-main{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* ESTILOS DE LA SECCION DEL MAIN*/
+
+#fondo-seccion-main{
+    max-width: 450px;
+    background: #FAFAFA;
+}
+
+#letra-seccion-main{
+    font-size: 16px;
+}
+
+#estilo-seccion-main{
+    font-weight: 600;
+    font-size: 16px;
+    color: #B9B9C1;
+    padding: 5px 25px;
+}
+
+#imagen-seccion-main{   
+    width: 70px;
+    height: 70px;
+}
+
+#diagrama-uno-main{
+    width: 450px;
+    height: 400px;
+}
+
+/* ESTILOS DEL FOOTER*/
+
+footer{
+    padding: 0px;
+}
+
+#fondo-footer-primero{ 
+    background-color: #8B48BF;
+}
+
+#letra-h5-footer{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0px 7vw;
+}
+
+.fondo-footer-segundo{
+    background-color: #1E1E26;
+}
+
+#boton-footer{
+    position: relative;
+    bottom: 30px;
+    color:#8B48BF;
+    background-color: #FFFFFF;
+}
+
+.formulario-footer{
+    padding: 12px 60px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #A0A0A0;
+    text-align: start;
+}
+
+
+.boton-formulario{
+    padding: 15px 20px;
+}
+
+
+footer ul li{
+    padding: 8px 0px;
+}
+
+footer ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.esta-mal-jeje{
+    visibility: hidden;
+}
+
+footer h6{
+    color: #8C8C94;
+    font-weight: 500;
+    font-size: 12px; 
+    margin: 60px 0px;  
+}
+
+.copyright-footer{
+    margin: 0px;
+    padding: 3vh 0px;
+}
+
+.img-footer{
+    position: relative;
+    top:20px;
+    align-self: center;
+    margin-top: 25px;
+}
+
+/* ESTILO DE ESCRITORIO 1440px*/
+
+@media (min-width: 481px) {
+    body{
+        text-align: start;
+    }
+    
+    main{
+        padding: 0px 100px;
+    }
+
+    header{
+        justify-content: space-around;
+        height: 3vw;
+    }
+
+    h1{
+        margin: 45px 0px 20px 0px;
+    }
+
+    .alinear-principio{
+        align-self: flex-start;
+    }
+
+    .visibilidad-escondido{
+        display: inline;
+    }
+
+    .flex-columna-invertido{
+        flex-direction: row;
+    }
+
+    #padding25{
+        padding: 25px;
+    }
+
+    #hamburguesa-header{
+        display: none;
+    }
+
+    .dimension-texto-main{
+        width: 35vw;
+    }
+    
+    #titulo-articulo-main{
+        background: none;
+    }
+
+    .fondo-article{
+        background-color: #FFFFFF;
+    }
+
+    #letra-p-main{
+        padding: 0px 150px 0px 0px;
+        margin: 0px;
+    }
+
+    .posicion-boton-main{
+        max-width: 125px;
+        
+        margin-top: 20px;
+    }
+
+
+    .excepcion-flex-row{
+        flex-direction: row;
+    }
+
+    .excepcion-flex-row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .espacio-ocupado-main1{
+        position: relative;
+        width: 35vw;
+    }
+
+    .espacio-ocupado-main2{
+        position: relative;
+        left: 10vw;
+        width: 45vw;
+
+    }
+
+    #excepcion-margin{
+        margin-top: 0px;
+    }
+
+    main div article #texto-articulo-main{
+        width: 30vw;
+        position: relative;
+        left: 90px;
+    }
+
+    footer div #fondo-footer-primero{
+        display: none;
+    }
+
+    #boton-footer{
+        margin: 5vw 7.5vw 0px 0px;
+    }
+
+    #letra-h5-footer{
+        max-width: 28vw;
+    }
+
+    footer nav ul { 
+        max-width: 10vw;
+        padding: 25px 0px;
+        margin: 0px;
+    }
+
+    footer nav ul li{
+        padding: 0px;
+    }
+
+    footer nav ul a{
+        font-size: 12px;;
+    }
+
+    .nav-footer{
+        position: relative;
+        top: 15vh;
+        width: 13vw;
+        height: 5vh;
+    }
+
+    .img-footer{
+        position: inherit;
+        margin: -6px;
+    }
+
+    .copyright-footer{
+        margin: 0px;
+        padding: 0px 9vw 5vh 0px;
+        position: relative;
+        text-align: end;
+    }
+
+}
